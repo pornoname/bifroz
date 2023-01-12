@@ -169,7 +169,3 @@ jobs:
         with:
           api_token: ${{ secrets.NEURALEGION_TOKEN }}
           name: GitHub scan ${{ github.sha }}
-          discovery_types: |
-            [ "crawler" ]
-          crawler_urls: |
-            [ "https://brokencrystals.com" ] # ✏️ Update this to the url you wish to scan
